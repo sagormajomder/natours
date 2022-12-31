@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Natours Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass ./src/sass/main.scss ./src/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagormajomder/natours.git"
+  },
+  "author": "Sagor Majomder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagormajomder/natours/issues"
+  },
+  "homepage": "https://github.com/sagormajomder/natours#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
