@@ -201,6 +201,38 @@ body {
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
+.feature-card {
+  padding: 3.2rem 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  border-radius: 3px;
+  transition: all 0.3s;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+.feature-card__icon {
+  display: block;
+  font-size: 6.2rem;
+  background-image: linear-gradient(90deg, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.feature-card:hover {
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+/*
+
+- Font sizes (px)
+
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
 .composition {
   position: relative;
 }
@@ -309,6 +341,22 @@ section {
 .section-about {
   background-color: #f7f7f7;
   margin-top: -13rem;
+}
+
+.section-feature {
+  background-image: linear-gradient(90deg, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  background-position: top;
+  transform: skewY(-7deg);
+  margin-top: -10rem;
+}
+.section-feature > * {
+  transform: skewY(7deg);
+}
+
+.section-tour {
+  background-color: #f7f7f7;
+  margin-top: -8rem;
 }
 
 /*
